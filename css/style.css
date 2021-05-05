@@ -1,0 +1,108 @@
+ *{
+     margin:0px;
+     padding:0px;
+     font-family:sans-serif;
+ }
+  
+ #sidebar{
+     position:fixed;
+     width:200px;
+     height:100%;
+     background: #33b5e5;
+     left:0px;
+     transition:all 500ms linear;
+     margin-top:60px;
+     
+  }
+ #sidebar.active{
+     left:-200px;
+     background: black;
+     
+ }
+ #sidebar ul li{
+        color:white;
+        list-style:none;
+        padding:15px 10px;
+        border-bottom:1px solid white;
+ }
+  
+ .anc{
+     color: white !important;
+ }
+
+ #sidebar .toggle-btn{
+    position:absolute;
+    left:210px;
+    top:10px;
+ }
+ #sidebar .toggle-btn span{
+        display:block;
+        width:30px;
+        height:5px;
+        background: #33b5e5;
+        margin:3px 0px;
+ }
+ #myChart,
+ #horizontalBar{
+    margin:120px 110px !important;
+    width:350px !important;
+ }
+  #pieChart,
+  #doughnutChart{
+     margin-left:180px;
+    width:300px !important;
+  }
+   table{
+        transform:translate(500px,200px);
+        width:600px;
+        text-align: center;
+   }
+   table tr th{
+       background: #33b5e5;
+       color:white
+   }
+   table tr td{
+    padding:20px;
+
+   }
+
+    
+   .btn-info{
+    transform:translate(1120px,190px);
+
+   }
+   .btn-danger{
+    transform:translate(1110px,190px);
+
+   }
+   #d{
+    transform:translate(800px,150px);
+
+   }
+   form{
+    transform: translate(230px,120px)
+   }
+   #local-title{
+    transform: translate(230px,120px);
+    color:red;
+   }
+   #local{
+       width:400px;
+       height:200px;
+       border:1px solid black;
+    transform: translate(230px,120px);
+    text-align: center;
+
+   }
+   table.question-table{
+       position:absolute;
+       top:0;
+       left:200px;
+ 
+   }
+   .fa-trash-alt{
+       color:red;
+   }
+   .fa-trash-alt button{
+       border:none
+   }
